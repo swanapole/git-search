@@ -1,0 +1,61 @@
+<div id="form">
+  <form action="">
+    <div class="form-group">
+      <div class="row">
+        <div class="col-md-8">
+          <input type="text" class="form-control" placeholder="Search the username of any github user!" [(ngModel)]="username" name="username">
+        </div>
+        <div class="col-sm-4">
+          <button class="btn" (click)="searchProfile()">Search</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div *ngIf= "profile">
+  <div class="panel">
+    <div class="panel-heading">
+      <h3 appHighlight>{{profile.login}}'s Details</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="{{profile.login}}'s Avatar">
+        </div>
+        <div class="col-sm-5">
+          <ul class="list-group">
+            <li class="list-group-item">{{profile.name | bolden}} &mdash;{{profile.login}}</li>
+            <li class="list-group-item">{{profile.location}}</li>
+            <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
+            <li class="list-group-item" *ngIf="profile.company"> Works at:{{profile.company}}</li>
+            <li class="list-group-item" *ngIf="profile.hireable">Available for hire</li>
+            <li class="list-group-item" *ngIf="profile.blog"><a href="{{profile.blog}}" target = "_blank">{{profile.blog}}</a></li>
+            <li class="list-group-item" *ngIf="profile.email"><a href="emailto:{{profile.email}}">{{profile.email}}</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <div>
+            <p>
+              <span class="label">{{profile.followers}} Followers</span>
+              <span class="label">Following {{profile.following}}</span>
+              <span class="label">{{profile.public_gists}} Public Gists</span>
+              <span class="label">{{profile.public_repos}} Repositories</span>
+            </p>
+            <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-md">View profile on Github</a></p>
+            <div class="panel">
+              <div class="panel-heading">
+                <h3 class="panel-heading">Repositories</h3>
+              </div>
+              <div class="panel-body" *ngFor="let repo of reposArray">
+                <p class="clearfix">
+                  {{repo.name}} <a href="{{repo.html_url}}" target="_blank" class="btn btn-md pull-right">View this project on Github</a>
+               </p>
+               <p>{{repo.description}}</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
