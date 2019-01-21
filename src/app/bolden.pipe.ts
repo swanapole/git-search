@@ -1,4 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { Profile } from './profile';
+import{ Repo } from './repo';
 
 @Pipe({
   name: 'bolden'

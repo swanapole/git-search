@@ -1,10 +1,16 @@
+
+
+
 <div id="form">
   <form action="">
     <div class="form-group">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
           <input type="text" class="form-control" placeholder="Search the username of any github user!" [(ngModel)]="username" name="username">
+
         </div>
+        <br>
+        <br>
         <div class="col-sm-4">
           <button class="btn" (click)="searchProfile()">Search</button>
         </div>
@@ -34,7 +40,6 @@
           </ul>
         </div>
         <div class="col-sm-4">
-          <div>
             <p>
               <span class="label">{{profile.followers}} Followers</span>
               <span class="label">Following {{profile.following}}</span>
@@ -44,18 +49,21 @@
             <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-md">View profile on Github</a></p>
             <div class="panel">
               <div class="panel-heading">
-                <h3 class="panel-heading">Repositories</h3>
+                <h4 class="panel-heading">Repositories</h4>
               </div>
+              <div class="jumbotron">
+
               <div class="panel-body" *ngFor="let repo of reposArray">
                 <p class="clearfix">
                   {{repo.name}} <a href="{{repo.html_url}}" target="_blank" class="btn btn-md pull-right">View this project on Github</a>
                </p>
                <p>{{repo.description}}</p>
+               <hr>
              </div>
+             </div>
+           </div>
            </div>
          </div>
        </div>
      </div>
    </div>
- </div>
-</div>

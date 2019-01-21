@@ -1,7 +1,7 @@
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// import { HttpModule } from '@angular/http';
+import { RoutingModule } from './routing/routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 // import { RouterModule, Routes } from '@angular/router';
@@ -9,8 +9,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { GitProfileComponent } from './git-profile/git-profile.component';
 import { GhProfileService } from './gh-profile.service';
-import { IntroComponent } from './intro/intro.component';
-import { RoutingModule } from './routing/routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BoldenPipe } from './bolden.pipe';
 import { HighlightDirective } from './highlight.directive';
@@ -19,7 +17,6 @@ import { HighlightDirective } from './highlight.directive';
   declarations: [
     AppComponent,
     GitProfileComponent,
-    IntroComponent,
     PageNotFoundComponent,
     BoldenPipe,
     HighlightDirective
