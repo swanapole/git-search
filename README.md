@@ -34,6 +34,7 @@ Not seen any but the user is welcome to identify any if available
 -When the user clicks on 'Visit Github Site' on a user's profile they should be redirected to the user's github site.
 
 ## Technologies Used
+
 HTML was used in making the skeleton of the website.
 
 CSS and Bootstrap was used in styling the document.
