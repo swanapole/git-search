@@ -6,6 +6,7 @@ This web-app was created in order to retrieve information from Github using an A
 This is Week 2's Independent Project.
 
 Date: 22st january 2019
+
 By: Shilla celinedion
 
 ## Description
