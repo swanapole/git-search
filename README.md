@@ -1,28 +1,54 @@
-# GitSearch
+## Git-search
+This project was generated with Angular CLI version 6.2.1.
 
+This web-app was created in order to retrieve information from Github using an API. Last angular Independent Project.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+Date: 22st january 2019
 
-## Development server
+By: Shilla celinedion
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+The webapp contains allows one to search for User profiles and Repositories from Github as well as view info associated to each.
 
-## Code scaffolding
+Setup/Installation Requirements
+The github page is currently live thus the following link will take you to the webpage "https://swanapole.github.io/git-search/"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+As long as you have a compatible browser the document will work. Internet Connection is required to initiate API connection
 
-## Build
+## Known Bugs
+Not seen any but the user is welcome to identify any if available
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Behaviour Driven Development
+-The program should return a user's profile details when the correct username is entered in the User Profile section.
 
-## Running unit tests
+-The program should return repositories in relation to the search term the user enters in the Repositories section.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-When the user clicks on the repository link it should redirect them to the github site for that repository.
 
-## Running end-to-end tests
+-When the user clicks on 'Visit Github Site' on a user's profile they should be redirected to the user's github site.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies Used
+-HTML was used in making the skeleton of the website.
 
-## Further help
+-CSS and Bootstrap was used in styling the document.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+-Atom was the source code editor of choice.
+
+-Git and Github were used as my local and online repositories respectively.
+
+-AngularCLI was used in creating the components/classes/directives/pipes needed in the web-app
+
+-Github's API and Access Token was used in creating the connection to Github.
+
+## live link
+https://swanapole.github.io/git-search/
+
+## Support and contact details
+Contact me through my email: swanapoleshilla@yahoo.com
+
+The source code is also contained within the folder containing this ReadMe with comments on the code thus third-party support can be offered.
+
+## License
+Moringa School Copyright (c)2018
+
+Github by Yours Truly-Shilla Celinedion Swanapole
