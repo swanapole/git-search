@@ -35,17 +35,17 @@ Not seen any but the user is welcome to identify any if available
 
 ## Technologies Used
 
-HTML was used in making the skeleton of the website.
+-HTML was used in making the skeleton of the website.
 
-CSS and Bootstrap was used in styling the document.
+-CSS and Bootstrap was used in styling the document.
 
-Atom was the source code editor of choice.
+-Atom was the source code editor of choice.
 
-Git and Github were used as my local and online repositories respectively.
+-Git and Github were used as my local and online repositories respectively.
 
-AngularCLI was used in creating the components/classes/directives/pipes needed in the web-app
+-AngularCLI was used in creating the components/classes/directives/pipes needed in the web-app
 
-Github's API and Access Token was used in creating the connection to Github.
+-Github's API and Access Token was used in creating the connection to Github.
 
 ## live link
 https://swanapole.github.io/git-search/
