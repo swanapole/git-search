@@ -2,7 +2,8 @@
 ## Git-search
 This project was generated with Angular CLI version 6.2.1.
 
-This web-app was created in order to retrieve information from Github using an API. This is Week 2's Independent Project. Date: 22st january 2019 By: Shilla celinedion
+This web-app was created in order to retrieve information from Github using an API. This is Week 2's Independent Project. Date: 22st january 2019
+By: Shilla celinedion
 
 ## Description
 The webapp contains allows one to search for User profiles and Repositories from Github as well as view info associated to each.
