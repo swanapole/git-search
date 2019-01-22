@@ -35,6 +35,9 @@ AngularCLI was used in creating the components/classes/directives/pipes needed i
 
 Github's API and Access Token was used in creating the connection to Github.
 
+## live link
+https://swanapole.github.io/git-search/
+
 ## Support and contact details
 Contact me through my email: swanapoleshilla@yahoo.com
 
