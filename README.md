@@ -59,5 +59,6 @@ The source code is also contained within the folder containing this ReadMe with 
 
 ## License
 Moringa School Copyright (c)2018
+
 Github by Yours Truly-Shilla Celinedion Swanapole
 
