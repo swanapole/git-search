@@ -58,5 +58,6 @@ Contact me through my email: swanapoleshilla@yahoo.com
 The source code is also contained within the folder containing this ReadMe with comments on the code thus third-party support can be offered.
 
 ## License
-Moringa School Copyright (c)2018 Github by Yours Truly-Shilla Celinedion Swanapole
+Moringa School Copyright (c)2018
+Github by Yours Truly-Shilla Celinedion Swanapole
 
