@@ -25,13 +25,13 @@ Not seen any but the user is welcome to identify any if available
 
 ## Behaviour Driven Development
 
-The program should return a user's profile details when the correct username is entered in the User Profile section.
+-The program should return a user's profile details when the correct username is entered in the User Profile section.
 
-The program should return repositories in relation to the search term the user enters in the Repositories section.
+-The program should return repositories in relation to the search term the user enters in the Repositories section.
 
-When the user clicks on the repository link it should redirect them to the github site for that repository.
+-When the user clicks on the repository link it should redirect them to the github site for that repository.
 
-When the user clicks on 'Visit Github Site' on a user's profile they should be redirected to the user's github site.
+-When the user clicks on 'Visit Github Site' on a user's profile they should be redirected to the user's github site.
 
 ## Technologies Used
 HTML was used in making the skeleton of the website.
