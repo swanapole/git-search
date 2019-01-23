@@ -16,7 +16,7 @@ The github page is currently live thus the following link will take you to the w
 As long as you have a compatible browser the document will work. Internet Connection is required to initiate API connection
 
 ## Known Bugs
-Not seen any but the user is welcome to identify any if available
+Not seen any but the user is welcome to identify any if available.
 
 ## Behaviour Driven Development
 -The program should return a user's profile details when the correct username is entered in the User Profile section.
