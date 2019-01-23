@@ -24,6 +24,7 @@ As long as you have a compatible browser the document will work. Internet Connec
 Not seen any but the user is welcome to identify any if available.
 
 ## Behaviour Driven Development
+
 -The program should return a user's profile details when the correct username is entered in the User Profile section.
 
 -The program should return repositories in relation to the search term the user enters in the Repositories section.
