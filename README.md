@@ -13,7 +13,7 @@ The webapp contains allows one to search for User profiles and Repositories from
 Setup/Installation Requirements
 The github page is currently live thus the following link will take you to the webpage "https://swanapole.github.io/git-search/."
 
-As long as you have a compatible browser the document will work. Internet Connection is required to initiate API connection
+As long as you have a compatible browser the document will work. Internet Connection is required to initiate API connection.
 
 ## Known Bugs
 Not seen any but the user is welcome to identify any if available.
