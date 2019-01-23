@@ -12,7 +12,7 @@ By: Shilla celinedion.
 ## Description
 The webapp allows one to search for User profiles and Repositories from Github as well as view info associated to each
 
-Setup/Installation Requirements
+## Setup/Installation Requirements
 The github page is currently live thus the following link will take you to the webpage "https://swanapole.github.io/git-search/."
 
 As long as you have a compatible browser the document will work. Internet Connection is required to initiate API connection.
