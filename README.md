@@ -52,6 +52,7 @@ Not seen any but the user is welcome to identify any if available.
 https://swanapole.github.io/git-search/
 
 ## Support and contact details
+
 Contact me through my email: swanapoleshilla@yahoo.com
 
 The source code is also contained within the folder containing this ReadMe with comments on the code thus third-party support can be offered.
