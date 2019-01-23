@@ -1,7 +1,9 @@
 ## Git-search
 This project was generated with Angular CLI version 6.2.1.
 
-This web-app was created in order to retrieve information from Github using an API. Last angular Independent Project.
+This web-app was created in order to retrieve information from Github using an API.
+
+Last angular Independent Project.
 
 Date: 22st january 2019,
 
