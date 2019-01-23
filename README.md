@@ -5,7 +5,7 @@ This web-app was created in order to retrieve information from Github using an A
 
 Date: 22st january 2019,
 
-By: Shilla celinedion
+By: Shilla celinedion.
 
 ## Description
 The webapp contains allows one to search for User profiles and Repositories from Github as well as view info associated to each.
